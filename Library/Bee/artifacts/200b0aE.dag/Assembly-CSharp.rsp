@@ -376,6 +376,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Script/HMDinfoManager.cs"
 "Assets/Script/MenuController.cs"
+"Assets/Script/MenuController1.cs"
+"Assets/Script/MenuController2.cs"
+"Assets/Script/MenuController3.cs"
 "Assets/Script/Return.cs"
 -langversion:9.0
 
