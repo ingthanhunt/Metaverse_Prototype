@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/ing/Documents/Metaverse_Prototype
+  m_LastProjectPath: /Users/ing/Documents/MetaversePrototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
