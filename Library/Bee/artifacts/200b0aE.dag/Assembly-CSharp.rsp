@@ -379,6 +379,8 @@
 "Assets/Script/MenuController1.cs"
 "Assets/Script/MenuController2.cs"
 "Assets/Script/MenuController3.cs"
+"Assets/Script/MenuManager.cs"
+"Assets/Script/Panel.cs"
 "Assets/Script/Return.cs"
 -langversion:9.0
 
