@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 {
     "displayName": "Controller",
     "description": "Basic sample showing how to create and reference OpenXR action maps with the new input system.",
     "createSeparatePackage": false
 }
+=======
+{
+    "displayName": "Controller",
+    "description": "Basic sample showing how to create and reference OpenXR action maps with the new input system.",
+    "createSeparatePackage": false
+}
+>>>>>>> adf9eafeacdaacb9a77128cde68308fa01d7151f

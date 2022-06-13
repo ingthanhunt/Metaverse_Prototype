@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 apiRules:
   - exclude:
       uidRegex: ^UnityEngine\.XR\.OpenXR\.Samples\..*$
   - exclude:
       uidRegex: ^UnityEditor\.XR\.OpenXR\.Samples\..*$
+=======
+apiRules:
+  - exclude:
+      uidRegex: ^UnityEngine\.XR\.OpenXR\.Samples\..*$
+  - exclude:
+      uidRegex: ^UnityEditor\.XR\.OpenXR\.Samples\..*$
+>>>>>>> adf9eafeacdaacb9a77128cde68308fa01d7151f
