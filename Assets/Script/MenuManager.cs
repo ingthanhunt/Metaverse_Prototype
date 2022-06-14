@@ -26,10 +26,9 @@ public class MenuManager : MonoBehaviour
     }
 
     private void Update() {
-        
     }
 
-    public void GoPrevious() {
+    public void GoToPrevious() {
         if(panelHistory.Count == 0 ) {
             return;
         }
