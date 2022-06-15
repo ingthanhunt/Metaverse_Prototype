@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
         "name": "OpenXR Extension Sample",
         "version": "0.1.0-preview.1",
@@ -9,15 +8,3 @@
                 }
         ]
 }
-=======
-{
-        "name": "OpenXR Extension Sample",
-        "version": "0.1.0-preview.1",
-        "libraryName": "MeshingFeaturePlugin",
-        "meshings": [
-                {
-                        "id": "Sample Meshing"
-                }
-        ]
-}
->>>>>>> adf9eafeacdaacb9a77128cde68308fa01d7151f
