@@ -374,6 +374,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Script/AudioManager.cs"
 "Assets/Script/HMDinfoManager.cs"
 "Assets/Script/MenuController.cs"
 "Assets/Script/MenuController1.cs"
@@ -381,6 +382,7 @@
 "Assets/Script/MenuController3.cs"
 "Assets/Script/MenuManager.cs"
 "Assets/Script/Panel.cs"
+"Assets/Script/PauseMenu.cs"
 "Assets/Script/PhysicsButton.cs"
 "Assets/Script/Return.cs"
 -langversion:9.0
