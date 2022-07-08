@@ -9,10 +9,16 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangex = 9;
     [SerializeField]
     private float spawnRangez = 20;
+    [SerializeField]
+    private float spawnRangey = 1;
+    [SerializeField]
+    private float spawnTime = 7;
+    [SerializeField]
+    private float spawnDelay = 3;
 
     void Start()
     {
-        InvokeRepeating("SpawnRandomObstacle",2,1.5f);
+        InvokeRepeating("SpawnRandomObstacle",spawnTime,spawnDelay);
     }
 
     void Update()
@@ -23,7 +29,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnRandomObstacle()
     {
         int ObstacleIndex = Random.Range(0, ObstaclePrefebs.Length);
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangex, spawnRangex), 0, spawnRangez);
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangex, spawnRangex), spawnRangey, spawnRangez);
         Instantiate(ObstaclePrefebs[ObstacleIndex], spawnPos, ObstaclePrefebs[ObstacleIndex].transform.rotation);
         Debug.Log("Obstacle Work!!!");
     }

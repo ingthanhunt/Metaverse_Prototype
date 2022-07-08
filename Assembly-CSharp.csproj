@@ -65,10 +65,11 @@
     <Compile Include="Assets\Script\Panel.cs" />
     <Compile Include="Assets\Script\MenuController.cs" />
     <Compile Include="Assets\Script\MenuController3.cs" />
-    <Compile Include="Assets\Script\AudioManager.cs" />
-    <Compile Include="Assets\Script\MenuController2.cs" />
     <Compile Include="Assets\Script\SpawnManager.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
+    <Compile Include="Assets\Script\AudioManager.cs" />
+    <Compile Include="Assets\Script\MenuController2.cs" />
+    <Compile Include="Assets\Script\DetectColisions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Other\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -819,14 +820,6 @@
       <Project>{BFD611A5-F60F-9BE5-15AA-083AC9959D1D}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{299DACA2-0EB1-B3CE-FB77-5115D0EA7D58}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{14B13FC9-9658-13B5-B4E0-3BC4AD151165}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
       <Project>{76777576-BAFE-E7F1-2CA7-E91FCFDD2320}</Project>
       <Name>Unity.XR.Oculus.Editor</Name>
@@ -875,14 +868,6 @@
       <Project>{11B77CC1-7B52-6F77-CAF6-FC940BDF35D2}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{0129A027-3F44-5C79-B37B-6BE05F26C022}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{298E7BA3-BB57-7C7D-9E19-0497CEA1B131}</Project>
-      <Name>Unity.XR.Management.Samples.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
       <Project>{9BE5EF66-B86C-B706-62F7-ED7EB60B93B6}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
@@ -923,17 +908,9 @@
       <Project>{E9880A48-091B-B4D1-19D9-553A66FEDF86}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{8240434D-8447-DC70-C331-198D61310F0C}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TerrainTools.csproj">
       <Project>{CF879E0B-3444-A532-41F6-E4972B5AECF4}</Project>
       <Name>Unity.TerrainTools</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{FE794A65-9B64-683B-9ED5-525F47E6B901}</Project>
-      <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
       <Project>{BACA8E14-75D4-5AC8-893B-5BF487FAD4C5}</Project>
@@ -967,10 +944,6 @@
       <Project>{ACA161FF-D23C-59DE-8731-7EEAE3171B4F}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{FB6DA5A5-F0A0-C787-7702-7DC26F63175F}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
       <Project>{42154AF0-9CDF-E3B5-35CA-A2F0DECAB11C}</Project>
       <Name>Unity.XR.OpenXR</Name>
@@ -1002,6 +975,14 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{9C602589-8608-EA28-E06A-D17F81C8F3C3}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{FB6DA5A5-F0A0-C787-7702-7DC26F63175F}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{298E7BA3-BB57-7C7D-9E19-0497CEA1B131}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -350,9 +350,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleConstants.cs"
-"Assets/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleLoader.cs"
-"Assets/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleSettings.cs"
+"Assets/Other/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleConstants.cs"
+"Assets/Other/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleLoader.cs"
+"Assets/Other/Samples/XR Plugin Management/4.2.1/Example XR Management implementation/SampleSettings.cs"
 -langversion:9.0
 
 /deterministic

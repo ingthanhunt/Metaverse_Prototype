@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637928589828689613
+      ticks: 637928807651603053
     m_Hash: 2678344730
   m_LockFileStatus:
     m_FilePath: E:/intern/ProjectMetavese/Metaverse_Prototype/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637928589828689613
+      ticks: 637928807651643088
     m_Hash: 1224507161
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
