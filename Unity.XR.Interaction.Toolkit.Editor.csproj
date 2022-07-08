@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Locomotion\Teleportation\BaseTeleportationInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\AR\Interactables\ARBaseGestureInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\AR\Interactables\ARTranslationInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\SettingsProvider\XRInteractionEditorSettings.cs" />
@@ -65,8 +66,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Interactables\XRBaseInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Controllers\XRBaseControllerEditor.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\SettingsProvider\XRInteractionToolkitSettingsProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Controllers\ActionBasedControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Debugger\XRInteractionDebuggerWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Controllers\ActionBasedControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Interactors\XRRayInteractorEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Debugger\XRInputDevicesTreeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Locomotion\SnapTurn\DeviceBasedSnapTurnProviderEditor.cs" />
@@ -112,7 +113,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\AR\Interactables\ARRotationInteractableEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Interaction\Filtering\XRMissingEvaluatorTypeList.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\AR\Interactables\ARSelectionInteractableEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Locomotion\Teleportation\BaseTeleportationInteractableEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.1.0-pre.1\Editor\Unity.XR.Interaction.Toolkit.Editor.asmdef" />
@@ -801,13 +801,13 @@
       <Project>{191E506A-A223-822E-E4EF-34B806155D80}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{D814CD4A-252E-3208-E361-CD1C2DBA934B}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{B7C262AB-D510-9FC7-63F3-E51B26BE6C8E}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{D814CD4A-252E-3208-E361-CD1C2DBA934B}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

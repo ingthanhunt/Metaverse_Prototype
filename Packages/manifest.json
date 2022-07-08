@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.collections": "1.2.4",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
     "com.unity.feature.worldbuilding": "1.0.1",

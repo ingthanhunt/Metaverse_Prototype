@@ -122,9 +122,9 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\TapInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Mouse.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\State\InputState.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\OnScreen\OnScreenButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\InputExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector3Composite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Interactions\HoldInteraction.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Utilities\DynamicBitfield.cs" />
@@ -255,9 +255,9 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\DeltaStateEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\Composites\Vector2Composite.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\DefaultInputActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Controls\Processors\InvertProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\PlayerInput\DefaultInputActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\OpenVR.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Actions\InputActionProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XR\Devices\GoogleVR.cs" />
@@ -347,8 +347,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\IXboxOneRumble.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\XInput\XboxGamepadMacOS.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventStream.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Editor\InputLayoutCodeGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Events\InputEventStream.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Users\InputUserChange.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\UI\ExtendedPointerEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.3.0\InputSystem\Plugins\Android\AndroidKeyCode.cs" />
